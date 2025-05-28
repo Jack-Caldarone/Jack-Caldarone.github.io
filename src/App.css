@@ -12,15 +12,42 @@
   transition: filter 300ms;
 }
 .logo:hover {
-  filter: drop-shadow(0 0 2em #ffffffaa);
+  filter: drop-shadow(0 0 32px #ffffffaa);
 }
 
 
-.background {
-  background-image: url("/background.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  min-height: 100vh;
-  min-width: 100vw;
+/* .background {
+  background-image: url("/spacetile.jpg");
+  background-size: auto;
+  background-repeat: repeat;
+  background-position: top left;
+  min-height: 100%;
+  min-width: 100%;
+} */
+
+.main-column {
+  flex: auto;
+  max-width: 700px;
+  border-radius: 30px;
+  margin-top: 25px;
+  padding-left: 200px;
+  padding-right: 200px;
+  backdrop-filter: brightness(0.75) blur(5px);
+}
+
+.header-text {
+  font-family: "Inconsolata", monospace;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+.paragraph-text {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
 }
