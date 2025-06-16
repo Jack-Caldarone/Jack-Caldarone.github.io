@@ -1,11 +1,11 @@
 # Jack-Caldarone.github.io
 Portfolio website
 
-# React + Vite
-
 Start with npm run dev
 
 Background from: https://eggnored.tumblr.com/pattern
+
+# React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
