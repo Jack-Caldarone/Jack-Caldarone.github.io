@@ -23,26 +23,29 @@ function App() {
   
 
   return (
-    <div className='main-column'>
-        <div>
-          <a href="https://github.com/Jack-Caldarone" target="_blank">
-            <img src={githubLogo} className="logo" alt="Vite logo" />
-          </a>
-          <a href="https://www.linkedin.com/in/jack-caldarone-6093b2256/" target="_blank">
-            <img src={linkedinLogo} className="logo" alt="Linkedin logo" />
-          </a>
-        </div>
-        <h1 className='header-text'>{text}</h1>
-        <p className='paragraph-text'>Full-Stack Software/Web Developer, Soon-to-be-Graduate</p>
-        <p>\ (•◡•) /</p>
-        <img src={picOfMe}/>
-        <h1 className='header-text'>About Me</h1>
-        <p className='paragraph-text'>{loremIpsum}</p>
-        <h1 className='header-text'>Experience</h1>
-        <p className='paragraph-text'>{loremIpsum}</p>
-        <h1 className='header-text'>Projects</h1>
-        <p>{loremIpsum}</p>
-    </div>
+    <>
+      <div className='main-column'>
+          <div>
+            <a href="https://github.com/Jack-Caldarone" target="_blank">
+              <img src={githubLogo} className="logo" alt="Vite logo" />
+            </a>
+            <a href="https://www.linkedin.com/in/jack-caldarone-6093b2256/" target="_blank">
+              <img src={linkedinLogo} className="logo" alt="Linkedin logo" />
+            </a>
+          </div>
+          <h1 className='header-text'>{text}</h1>
+          <p className='paragraph-text'>Full-Stack Software/Web Developer, Soon-to-be-Graduate</p>
+          <p>\ (•◡•) /</p>
+          <img src={picOfMe}/>
+          <h1 className='header-text'>About Me</h1>
+          <p className='paragraph-text'>{loremIpsum}</p>
+          <h1 className='header-text'>Experience</h1>
+          <p className='paragraph-text'>{loremIpsum}</p>
+          <h1 className='header-text'>Projects</h1>
+          <p>{loremIpsum}</p>
+      </div>
+    </>
+
   )
 }
 
